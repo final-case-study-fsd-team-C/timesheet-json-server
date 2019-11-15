@@ -10,7 +10,37 @@
                     "name": "ModiModi",
                     "hourlyrate": "40"
                 },
-                "phases": [1, 2, 3, 4],
+                "phases": [{
+                        "name": "design",
+                        "id": 1,
+                        "color": {
+                            "r": "201",
+                            "g": "100",
+                            "b": "19",
+                            "a": "1"
+                        }
+                    },
+                    {
+                        "name": "development",
+                        "id": 2,
+                        "color": {
+                            "r": "201",
+                            "g": "12",
+                            "b": "190",
+                            "a": "10"
+                        }
+                    },
+                    {
+                        "name": "Testing",
+                        "id": 3,
+                        "color": {
+                            "r": "24",
+                            "g": "11",
+                            "b": "1",
+                            "a": "100"
+                        }
+                    }
+                ],
                 "budget": {
                     "hours": 12,
                     "recurrence": "weekly",
@@ -33,7 +63,37 @@
                     "name": "ModiModi",
                     "hourlyrate": "40"
                 },
-                "phases": [1, 2, 3, 4],
+                "phases": [{
+                        "name": "design",
+                        "id": 1,
+                        "color": {
+                            "r": "201",
+                            "g": "100",
+                            "b": "19",
+                            "a": "1"
+                        }
+                    },
+                    {
+                        "name": "development",
+                        "id": 2,
+                        "color": {
+                            "r": "201",
+                            "g": "12",
+                            "b": "190",
+                            "a": "10"
+                        }
+                    },
+                    {
+                        "name": "Testing",
+                        "id": 3,
+                        "color": {
+                            "r": "24",
+                            "g": "11",
+                            "b": "1",
+                            "a": "100"
+                        }
+                    }
+                ],
                 "budget": {
                     "hours": 12,
                     "recurrence": "weekly",
@@ -57,7 +117,37 @@
                     "name": "ModiModi",
                     "hourlyrate": "40"
                 },
-                "phases": [1, 2, 3, 4],
+                "phases": [{
+                        "name": "design",
+                        "id": 1,
+                        "color": {
+                            "r": "201",
+                            "g": "100",
+                            "b": "19",
+                            "a": "1"
+                        }
+                    },
+                    {
+                        "name": "development",
+                        "id": 2,
+                        "color": {
+                            "r": "201",
+                            "g": "12",
+                            "b": "190",
+                            "a": "10"
+                        }
+                    },
+                    {
+                        "name": "Testing",
+                        "id": 3,
+                        "color": {
+                            "r": "24",
+                            "g": "11",
+                            "b": "1",
+                            "a": "100"
+                        }
+                    }
+                ],
                 "budget": {
                     "hours": 12,
                     "recurrence": "weekly",
@@ -85,11 +175,36 @@
             "name": "ModiModi",
             "hourlyrate": "40"
         },
-        "phases": [
-            1,
-            2,
-            3,
-            4
+        "phases": [{
+                "name": "design",
+                "id": 1,
+                "color": {
+                    "r": "201",
+                    "g": "100",
+                    "b": "19",
+                    "a": "1"
+                }
+            },
+            {
+                "name": "development",
+                "id": 2,
+                "color": {
+                    "r": "201",
+                    "g": "12",
+                    "b": "190",
+                    "a": "10"
+                }
+            },
+            {
+                "name": "Testing",
+                "id": 3,
+                "color": {
+                    "r": "24",
+                    "g": "11",
+                    "b": "1",
+                    "a": "100"
+                }
+            }
         ],
         "budget": {
             "hours": 12,
