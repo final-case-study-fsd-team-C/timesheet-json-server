@@ -74,39 +74,72 @@
     "project": [{
         "id": 1,
         "name": "AT&T Project",
-        "projectColor": "#f2f3f4",
+        "projectColor": {
+            "r": "21",
+            "g": "12",
+            "b": "190",
+            "a": "111"
+        },
         "clientId": 1,
         "members": {
             "name": "ModiModi",
             "hourlyrate": "40"
         },
-        "phases": [1, 2, 3, 4],
+        "phases": [
+            1,
+            2,
+            3,
+            4
+        ],
         "budget": {
             "hours": 12,
             "recurrence": "weekly",
             "dayOfWeek": "Monday"
         }
-
     }],
     "phases": [{
             "name": "design",
-            "id": 1
+            "id": 1,
+            "color": {
+                "r": "201",
+                "g": "100",
+                "b": "19",
+                "a": "1"
+            }
         },
         {
             "name": "development",
-            "id": 2
+            "id": 2,
+            "color": {
+                "r": "201",
+                "g": "12",
+                "b": "190",
+                "a": "10"
+            }
         },
         {
             "name": "Testing",
-            "id": 3
+            "id": 3,
+            "color": {
+                "r": "24",
+                "g": "11",
+                "b": "1",
+                "a": "100"
+            }
         }
     ],
     "clients": [{
-        "id": 1,
-        "name": "AT&T",
-        "color": "#f2f3f4",
-        "noOfProjects": 1
+            "id": 1,
+            "name": "AT&T",
+            "color": {
+                "r": "24",
+                "g": "112",
+                "b": "109",
+                "a": "100"
+            },
+            "noOfProjects": 1
+        }
 
-    }]
 
+    ]
 }
