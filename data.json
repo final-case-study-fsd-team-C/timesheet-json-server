@@ -4,7 +4,12 @@
             "project": {
                 "id": 1,
                 "name": "AT&T Project",
-                "projectColor": "#f2f3f4",
+                "projectColor": {
+                    "r": "201",
+                    "g": "100",
+                    "b": "19",
+                    "a": "1"
+                },
                 "clientId": 1,
                 "members": {
                     "name": "ModiModi",
@@ -57,7 +62,13 @@
             "project": {
                 "id": 1,
                 "name": "AT&T Project",
-                "projectColor": "#f2f3f4",
+                "projectColor": {
+                    "r": "201",
+                    "g": "100",
+                    "b": "19",
+                    "a": "1"
+                },
+
                 "clientId": 1,
                 "members": {
                     "name": "ModiModi",
@@ -111,7 +122,12 @@
             "project": {
                 "id": 1,
                 "name": "AT&T Project",
-                "projectColor": "#f2f3f4",
+                "projectColor": {
+                    "r": "201",
+                    "g": "100",
+                    "b": "19",
+                    "a": "1"
+                },
                 "clientId": 1,
                 "members": {
                     "name": "ModiModi",
