@@ -1,276 +1,297 @@
 {
-    "timesheet": [{
-            "id": 3,
-            "project": {
-                "id": 1,
-                "name": "AT&T Project",
-                "projectColor": {
-                    "r": "201",
-                    "g": "100",
-                    "b": "19",
-                    "a": "1"
-                },
-                "clientId": 1,
-                "members": {
-                    "name": "ModiModi",
-                    "hourlyrate": "40"
-                },
-                "phases": [{
-                        "name": "design",
-                        "id": 1,
-                        "color": {
-                            "r": "201",
-                            "g": "100",
-                            "b": "19",
-                            "a": "1"
-                        }
-                    },
-                    {
-                        "name": "development",
-                        "id": 2,
-                        "color": {
-                            "r": "201",
-                            "g": "12",
-                            "b": "190",
-                            "a": "10"
-                        }
-                    },
-                    {
-                        "name": "Testing",
-                        "id": 3,
-                        "color": {
-                            "r": "24",
-                            "g": "11",
-                            "b": "1",
-                            "a": "100"
-                        }
-                    }
-                ],
-                "budget": {
-                    "hours": 12,
-                    "recurrence": "weekly",
-                    "dayOfWeek": "Monday"
-                }
-
-            },
-            "timeWorked": 60,
-            "phases": "Accounting",
-            "date": "2019-11-11",
-            "note": "Doing work on design part."
-        }, {
-            "id": 4,
-            "project": {
-                "id": 1,
-                "name": "AT&T Project",
-                "projectColor": {
-                    "r": "201",
-                    "g": "100",
-                    "b": "19",
-                    "a": "1"
-                },
-
-                "clientId": 1,
-                "members": {
-                    "name": "ModiModi",
-                    "hourlyrate": "40"
-                },
-                "phases": [{
-                        "name": "design",
-                        "id": 1,
-                        "color": {
-                            "r": "201",
-                            "g": "100",
-                            "b": "19",
-                            "a": "1"
-                        }
-                    },
-                    {
-                        "name": "development",
-                        "id": 2,
-                        "color": {
-                            "r": "201",
-                            "g": "12",
-                            "b": "190",
-                            "a": "10"
-                        }
-                    },
-                    {
-                        "name": "Testing",
-                        "id": 3,
-                        "color": {
-                            "r": "24",
-                            "g": "11",
-                            "b": "1",
-                            "a": "100"
-                        }
-                    }
-                ],
-                "budget": {
-                    "hours": 12,
-                    "recurrence": "weekly",
-                    "dayOfWeek": "Monday"
-                }
-
-            },
-            "timeWorked": 120,
-            "phases": "Accounting",
-            "date": "2019-11-11",
-            "note": "Doing work on design part."
-        },
-        {
-            "id": 5,
-            "project": {
-                "id": 1,
-                "name": "AT&T Project",
-                "projectColor": {
-                    "r": "201",
-                    "g": "100",
-                    "b": "19",
-                    "a": "1"
-                },
-                "clientId": 1,
-                "members": {
-                    "name": "ModiModi",
-                    "hourlyrate": "40"
-                },
-                "phases": [{
-                        "name": "design",
-                        "id": 1,
-                        "color": {
-                            "r": "201",
-                            "g": "100",
-                            "b": "19",
-                            "a": "1"
-                        }
-                    },
-                    {
-                        "name": "development",
-                        "id": 2,
-                        "color": {
-                            "r": "201",
-                            "g": "12",
-                            "b": "190",
-                            "a": "10"
-                        }
-                    },
-                    {
-                        "name": "Testing",
-                        "id": 3,
-                        "color": {
-                            "r": "24",
-                            "g": "11",
-                            "b": "1",
-                            "a": "100"
-                        }
-                    }
-                ],
-                "budget": {
-                    "hours": 12,
-                    "recurrence": "weekly",
-                    "dayOfWeek": "Monday"
-                }
-
-            },
-            "timeWorked": 120,
-            "phases": "Accounting",
-            "date": "2019-11-14",
-            "note": "Doing work on design part."
-        }
-    ],
-    "project": [{
+  "timesheet": [{
+      "id": 3,
+      "project": {
         "id": 1,
         "name": "AT&T Project",
         "projectColor": {
-            "r": "21",
-            "g": "12",
-            "b": "190",
-            "a": "111"
+          "r": "201",
+          "g": "100",
+          "b": "19",
+          "a": "1"
         },
         "clientId": 1,
         "members": {
-            "name": "ModiModi",
-            "hourlyrate": "40"
+          "name": "ModiModi",
+          "hourlyrate": "40"
         },
         "phases": [{
-                "name": "design",
-                "id": 1,
-                "color": {
-                    "r": "201",
-                    "g": "100",
-                    "b": "19",
-                    "a": "1"
-                }
-            },
-            {
-                "name": "development",
-                "id": 2,
-                "color": {
-                    "r": "201",
-                    "g": "12",
-                    "b": "190",
-                    "a": "10"
-                }
-            },
-            {
-                "name": "Testing",
-                "id": 3,
-                "color": {
-                    "r": "24",
-                    "g": "11",
-                    "b": "1",
-                    "a": "100"
-                }
-            }
-        ],
-        "budget": {
-            "hours": 12,
-            "recurrence": "weekly",
-            "dayOfWeek": "Monday"
-        }
-    }],
-    "phases": [{
             "name": "design",
             "id": 1,
             "color": {
-                "r": "201",
-                "g": "100",
-                "b": "19",
-                "a": "1"
+              "r": "201",
+              "g": "100",
+              "b": "19",
+              "a": "1"
             }
-        },
-        {
+          },
+          {
             "name": "development",
             "id": 2,
             "color": {
-                "r": "201",
-                "g": "12",
-                "b": "190",
-                "a": "10"
+              "r": "201",
+              "g": "12",
+              "b": "190",
+              "a": "10"
             }
-        },
-        {
+          },
+          {
             "name": "Testing",
             "id": 3,
             "color": {
-                "r": "24",
-                "g": "11",
-                "b": "1",
-                "a": "100"
+              "r": "24",
+              "g": "11",
+              "b": "1",
+              "a": "100"
             }
-        }
-    ],
-    "clients": [{
+          }
+        ],
+        "budget": 12
+
+
+
+      },
+      "timeWorked": 60,
+      "phases": "Accounting",
+      "date": "2019-11-11",
+      "note": "Doing work on design part."
+    },
+    {
+      "id": 4,
+      "project": {
+        "id": 1,
+        "name": "AT&T Project",
+        "projectColor": {
+          "r": "201",
+          "g": "100",
+          "b": "19",
+          "a": "1"
+        },
+        "clientId": 1,
+        "members": {
+          "name": "ModiModi",
+          "hourlyrate": "40"
+        },
+        "phases": [{
+            "name": "design",
             "id": 1,
-            "name": "AT&T",
             "color": {
-                "r": "24",
-                "g": "112",
-                "b": "109",
-                "a": "100"
-            },
-            "noOfProjects": 1
+              "r": "201",
+              "g": "100",
+              "b": "19",
+              "a": "1"
+            }
+          },
+          {
+            "name": "development",
+            "id": 2,
+            "color": {
+              "r": "201",
+              "g": "12",
+              "b": "190",
+              "a": "10"
+            }
+          },
+          {
+            "name": "Testing",
+            "id": 3,
+            "color": {
+              "r": "24",
+              "g": "11",
+              "b": "1",
+              "a": "100"
+            }
+          }
+        ],
+        "budget": 12
+
+      },
+
+      "timeWorked": 120,
+      "phases": "Accounting",
+      "date": "2019-11-11",
+      "note": "Doing work on design part."
+    },
+    {
+      "id": 5,
+      "project": {
+        "id": 1,
+        "name": "AT&T Project",
+        "projectColor": {
+          "r": "201",
+          "g": "100",
+          "b": "19",
+          "a": "1"
+        },
+        "clientId": 1,
+        "members": {
+          "name": "ModiModi",
+          "hourlyrate": "40"
+        },
+        "phases": [{
+            "name": "design",
+            "id": 1,
+            "color": {
+              "r": "201",
+              "g": "100",
+              "b": "19",
+              "a": "1"
+            }
+          },
+          {
+            "name": "development",
+            "id": 2,
+            "color": {
+              "r": "201",
+              "g": "12",
+              "b": "190",
+              "a": "10"
+            }
+          },
+          {
+            "name": "Testing",
+            "id": 3,
+            "color": {
+              "r": "24",
+              "g": "11",
+              "b": "1",
+              "a": "100"
+            }
+          }
+        ],
+        "budget": 12
+
+      },
+      "timeWorked": 120,
+      "phases": "Accounting",
+      "date": "2019-11-14",
+      "note": "Doing work on design part."
+    }
+  ],
+  "project": [{
+      "id": 1,
+      "name": "AT&T Project",
+      "projectColor": {
+        "r": "21",
+        "g": "12",
+        "b": "190",
+        "a": "111"
+      },
+      "clientId": 1,
+      "members": {
+        "name": "ModiModi",
+        "hourlyrate": "40"
+      },
+      "phases": [{
+          "name": "design",
+          "id": 1,
+          "color": {
+            "r": "201",
+            "g": "100",
+            "b": "19",
+            "a": "1"
+          }
+        },
+        {
+          "name": "development",
+          "id": 2,
+          "color": {
+            "r": "201",
+            "g": "12",
+            "b": "190",
+            "a": "10"
+          }
+        },
+        {
+          "name": "Testing",
+          "id": 3,
+          "color": {
+            "r": "24",
+            "g": "11",
+            "b": "1",
+            "a": "100"
+          }
         }
+      ],
+      "budget": 12
 
+    }
 
-    ]
+  ],
+  "phases": [{
+      "name": "design",
+      "id": 1,
+      "color": {
+        "r": "201",
+        "g": "100",
+        "b": "19",
+        "a": "1"
+      }
+    },
+    {
+      "name": "development",
+      "id": 2,
+      "color": {
+        "r": "201",
+        "g": "12",
+        "b": "190",
+        "a": "10"
+      }
+    },
+    {
+      "name": "Testing",
+      "id": 3,
+      "color": {
+        "r": "24",
+        "g": "11",
+        "b": "1",
+        "a": "100"
+      }
+    }
+  ],
+  "clients": [{
+      "id": 1,
+      "name": "AT&T",
+      "color": {
+        "r": "24",
+        "g": "112",
+        "b": "109",
+        "a": "100"
+      },
+      "noOfProjects": 1
+    },
+    {
+      "id": 69,
+      "name": "Bosch",
+      "color": {
+        "r": 50,
+        "g": 50,
+        "b": 53,
+        "a": 1
+      },
+      "noOfProjects": 0
+    },
+    {
+      "id": 81,
+      "name": "Finder",
+      "color": {
+        "r": 189,
+        "g": 16,
+        "b": 224,
+        "a": 1
+      },
+      "noOfProjects": 0
+    },
+    {
+      "id": 12,
+      "name": "Tinder",
+      "color": {
+        "r": "102",
+        "g": "100",
+        "b": "201",
+        "a": "10"
+      },
+      "noOfProjects": 0
+    }
+  ]
 }
