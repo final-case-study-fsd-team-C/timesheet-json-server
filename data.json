@@ -1,6 +1,6 @@
 {
-  "timesheet": [{
-      "id": 3,
+  "timesheet": [
+    {
       "project": {
         "id": 1,
         "name": "AT&T Project",
@@ -15,7 +15,8 @@
           "name": "ModiModi",
           "hourlyrate": "40"
         },
-        "phases": [{
+        "phases": [
+          {
             "name": "design",
             "id": 1,
             "color": {
@@ -47,14 +48,11 @@
           }
         ],
         "budget": 12
-
-
-
       },
-      "timeWorked": 60,
-      "phases": "Accounting",
-      "date": "2019-11-11",
-      "note": "Doing work on design part."
+      "timeWorked": 180,
+      "date": "2019-11-21",
+      "note": "Doing work on design part.",
+      "id": 3
     },
     {
       "id": 4,
@@ -72,7 +70,8 @@
           "name": "ModiModi",
           "hourlyrate": "40"
         },
-        "phases": [{
+        "phases": [
+          {
             "name": "design",
             "id": 1,
             "color": {
@@ -104,9 +103,7 @@
           }
         ],
         "budget": 12
-
       },
-
       "timeWorked": 120,
       "phases": "Accounting",
       "date": "2019-11-11",
@@ -128,7 +125,8 @@
           "name": "ModiModi",
           "hourlyrate": "40"
         },
-        "phases": [{
+        "phases": [
+          {
             "name": "design",
             "id": 1,
             "color": {
@@ -160,15 +158,15 @@
           }
         ],
         "budget": 12
-
       },
       "timeWorked": 120,
       "phases": "Accounting",
-      "date": "2019-11-14",
+      "date": "2019-11-20",
       "note": "Doing work on design part."
     }
   ],
-  "project": [{
+  "project": [
+    {
       "id": 1,
       "name": "AT&T Project",
       "projectColor": {
@@ -182,7 +180,8 @@
         "name": "ModiModi",
         "hourlyrate": "40"
       },
-      "phases": [{
+      "phases": [
+        {
           "name": "design",
           "id": 1,
           "color": {
@@ -214,11 +213,122 @@
         }
       ],
       "budget": 12
-
+    },
+    {
+      "name": "laallla",
+      "projectColor": {
+        "r": "",
+        "g": "",
+        "b": "",
+        "a": ""
+      },
+      "clientId": 1,
+      "members": {
+        "name": "",
+        "hourlyrate": "12121"
+      },
+      "phases": [
+        {
+          "name": "design",
+          "id": 1,
+          "color": {
+            "r": "201",
+            "g": "100",
+            "b": "19",
+            "a": "1"
+          }
+        }
+      ],
+      "budget": "12121",
+      "id": 2
+    },
+    {
+      "name": "Paras",
+      "projectColor": {
+        "r": "",
+        "g": "",
+        "b": "",
+        "a": ""
+      },
+      "clientId": 1,
+      "members": {
+        "name": "",
+        "hourlyrate": "12"
+      },
+      "phases": [
+        {
+          "name": "design",
+          "id": 1,
+          "color": {
+            "r": "201",
+            "g": "100",
+            "b": "19",
+            "a": "1"
+          }
+        },
+        {
+          "name": "design",
+          "id": 1,
+          "color": {
+            "r": "201",
+            "g": "100",
+            "b": "19",
+            "a": "1"
+          }
+        },
+        {
+          "name": "design",
+          "id": 1,
+          "color": {
+            "r": "201",
+            "g": "100",
+            "b": "19",
+            "a": "1"
+          }
+        },
+        {
+          "name": "development",
+          "id": 2,
+          "color": {
+            "r": "201",
+            "g": "12",
+            "b": "190",
+            "a": "10"
+          }
+        }
+      ],
+      "budget": "23"
+    },
+    {
+      "name": "Paras Kumar",
+      "projectColor": {
+        "r": "",
+        "g": "",
+        "b": "",
+        "a": ""
+      },
+      "clientId": 1,
+      "members": {
+        "name": "ModiModi",
+        "hourlyrate": "22"
+      },
+      "phases": [
+        {
+          "name": "design",
+          "id": 1,
+          "color": {
+            "r": "201",
+            "g": "100",
+            "b": "19",
+            "a": "1"
+          }
+        }
+      ],
+      "budget": "111"
     }
-
   ],
-  "phases": [{
+  "phases": [
+    {
       "name": "design",
       "id": 1,
       "color": {
@@ -249,7 +359,8 @@
       }
     }
   ],
-  "clients": [{
+  "clients": [
+    {
       "id": 1,
       "name": "AT&T",
       "color": {
@@ -285,6 +396,17 @@
     {
       "id": 12,
       "name": "Tinder",
+      "color": {
+        "r": "102",
+        "g": "100",
+        "b": "201",
+        "a": "10"
+      },
+      "noOfProjects": 0
+    },
+    {
+      "id": 84,
+      "name": "Rahul",
       "color": {
         "r": "102",
         "g": "100",
